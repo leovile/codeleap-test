@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import * as S from "./styles";
+import * as S from "../../styles/Posts/styles";
 import Button from "../../components/Button";
 import Post from "../../components/Post";
 import api from "../../actions/api";

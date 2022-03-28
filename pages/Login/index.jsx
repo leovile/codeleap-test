@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 
-import * as S from "./styles";
+import * as S from "../../styles/Login/styles";
 import Button from "../../components/Button";
 
 import useUsername from "../../hooks";
-import { useEffect } from "react/cjs/react.production.min";
 
 const Login = () => {
   const { username, setUsername } = useUsername();

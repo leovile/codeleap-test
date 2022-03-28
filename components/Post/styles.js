@@ -72,7 +72,8 @@ export const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    width: "50%",
+    minWidth: "350px",
+    width: "clamp(320px, 80vw, 1000px)",
   },
 };
 
@@ -90,7 +91,9 @@ export const Edit = styled.p`
   margin-bottom: 34px;
 `;
 
-export const TitleLabel = styled.p``;
+export const TitleLabel = styled.p`
+  margin-bottom: 16px;
+`;
 
 export const TitleInput = styled.input`
   width: 100%;
@@ -102,7 +105,9 @@ export const TitleInput = styled.input`
   margin-bottom: 20px;
 `;
 
-export const ContentLabel = styled.p``;
+export const ContentLabel = styled.p`
+  margin-bottom: 16px;
+`;
 
 export const ContentInput = styled.textarea`
   width: 100%;
